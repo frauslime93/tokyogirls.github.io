@@ -1,44 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sawarabi+Mincho&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Sawarabi Mincho', 'Noto Sans JP', sans-serif;
   margin: 0;
-  padding: 20px;
-  background: #f4f4f4;
+  padding: 40px 20px;
+  background: #fefefe;
   text-align: center;
+  background-image: url('https://www.transparenttextures.com/patterns/washi.png'); /* subtle washi paper effect */
+  background-size: contain;
+  color: #3a3a3a;
 }
 
 h1 {
-  margin-bottom: 30px;
-  color: #333;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #8c1f1f; /* muted red, traditional Japanese color */
+  letter-spacing: 2px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fffaf0;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
   overflow: hidden;
-  transition: transform 0.2s ease;
+  border: 1px solid #e5d5c5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card img {
   width: 100%;
   display: block;
+  border-bottom: 1px solid #e5d5c5;
 }
 
 .card p {
-  padding: 10px;
-  font-size: 14px;
-  color: #666;
+  padding: 12px;
+  font-size: 15px;
+  color: #4a4a4a;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.6;
 }
