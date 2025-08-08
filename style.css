@@ -6,7 +6,7 @@ body {
   padding: 40px 20px;
   background: #fefefe;
   text-align: center;
-  background-image: url('https://i.pinimg.com/736x/4d/41/a9/4d41a9a352e871f78cd0848157420ef9.jpg'); /* subtle washi paper effect */
+  background-image: url('https://i.pinimg.com/736x/4d/41/a9/4d41a9a352e871f78cd0848157420ef9.jpg'); 
   background-size: contain;
   color: #3a3a3a;
 }
